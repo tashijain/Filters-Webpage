@@ -1,0 +1,29 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+<div id="main">
+  <h1 id="header">Fun with Image Filters</h1>
+  <canvas id="can"></canvas>
+  <div>
+    <h2>Load image in the box above</h2>
+    <input type="file" multiple="false" accept="image/*" id="filebtn" onchange="loadImage()" class="btn">
+  </div>
+  <div>
+    <h2>Add filters from the options below:</h2>
+    <input type="button" value="Red" id="redbtn" onclick="redFilter()" class="btn">
+    <input type="button" value="RGB" id="rgbbtn" onclick="rgbFilter()" class="btn">
+    <input type="button" value="GrayScale" id="graybtn" onclick="grayFilter()" class="btn">
+        <input type="button" value="InvertColors" id="invertbtn" onclick="invertFilter()" class="btn">
+  </div>
+  <div>
+    <input type="button" value="Rainbow" id="rbwbtn" onclick="rainbowFilter()" class="btn">
+    <input type="button" value="Blur" id="blurbtn" onclick="blurFilter()" class="btn">
+    <input type="button" value="Warmer" id="warmbtn" onclick="warmFilter()" class="btn">
+    <input type="button" value="Custom Mesh" id="ctmbtn" onclick="customFilter()" class="btn">
+  </div>
+  <div>
+    <p id="clrpara"> Add filter of your color of choice :
+      <input type="color" value="#000000" id="clrbtn" class ="btn" onchange="colorFilter()">
+    </p>
+  </div>
+  <p id="quote"><b><em>Filter your mind...not your pictures?! Oops!! I better reset my Image</em></b></p>
+  <input type="button" value="Reset Image" id="resetbtn" onclick="resetImage()" class="btn">
+  <div>

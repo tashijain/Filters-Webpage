@@ -1,44 +1,43 @@
-html{
-    background: #ffb84d;
-    text-align: center;
-    border: 50px solid #ff9900;
-  }
-  #main{
-    background: #ffe0b3;
-    margin: 50px;
-    padding-top: 5px;
-    padding-bottom: 30px;
-  }
-  h1{
-    text-align: center;
-  }
-  canvas{
-    width: 500px;
-    border: 2px solid; 
-  }
-  .btn{
-    padding: 10px 20px;
-    margin: 5px;
-    background-color: #ffb84d;
-    border-radius: 5px;
-  }
-  
-  #clrbtn{
-    border-radius: 3px;
-    width: 60px;
-    padding: 5px;
-    background-color: #ffb84d;
-  }
-  
-  #clrbtn:hover{
-    background-color: #ff9900;
-  }
-  
-  .btn:hover{
-    background-color: #ff9900;
-    font-weight: 700;
-  }
-  #quote,#clrpara{
-    font-size: 120%;
-  }
-  
+html {
+  background: #8ac6d1;
+  text-align: center;
+}
+#main {
+  background: #fffdf9;
+  margin: 50px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+h1 {
+  text-align: center;
+}
+canvas {
+  width: 100%;
+  border: 1px solid;
+}
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #beebe9;
+}
+
+#clrbtn {
+  width: 60px;
+  padding: 5px;
+  background-color: none;
+}
+
+#clrbtn:hover {
+  border-radius: 3px;
+  background-color: #2a7886;
+}
+
+.btn:hover {
+  background-color: #2a7886;
+  font-weight: 700;
+  border-radius: 5px;
+}
+#quote,
+#clrpara {
+  font-size: 120%;
+}

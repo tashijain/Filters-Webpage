@@ -1,7 +1,13 @@
 # Filters-Webpage
 
-Website made using HTML, custom CSS and JavaScript for functionality.
+My first personal project.
 
-Allows the user to upload an image and apply filters such as grayscale, blur, warm, rainbow, RGB-color, user's color choice, adding a mesh to images.
+### Tech Stack
 
-User can also reset the image to try different filters.
+JavaScript, CSS, HTML.
+
+- Allows the user to upload an image
+- Apply filters such as grayscale, blur, warm, rainbow, RGB-color, user's color choice, or add a meshed look to images.
+- User can also reset the image to try different filters.
+
+![Page screenshot](filters.png)
